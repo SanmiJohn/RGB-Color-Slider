@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Slider</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <main id="mainbox">
+        <div id="rangebox">
+            <div id="rgbbox">
+                <p>R</p>
+                <p>G</p>
+                <p>B</p>
+            </div>
+
+            <div id="inputbox">
+                <input type="range" min="0" max="255" value="0" id="redrange">
+                <input type="range" min="0" max="255" value="0" id="greenrange">
+                <input type="range" min="0" max="255" value="0" id="bluerange">
+            </div>
+        </div>
+
+        <div id="buttonbox">
+            <Button id="displaybtn">rgb(0,0,0)</Button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
